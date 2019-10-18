@@ -17,14 +17,19 @@ install_github("antshi/ffData")
 library(ffData)
 ```
 
-## Example 1
+## Examples
 
-This is a basic example which shows you how to use the main function ffdata.download(). Everything is set to default.
+This are basic examples which show you how to use the main function ffdata.download()
+
+### Example 1 
+
+Everything is set to default.
 
 ``` r
 library(ffData)
 ffdata.download()
 ```
+
 ### Example 2
 
 Download monthly returns with dividends of 48 Industry Portfolios from January 1990 till December 2018
