@@ -19,22 +19,23 @@ library(ffData)
 
 ## Examples
 
-This are basic examples which show you how to use the main function ffdata.download()
+These are basic examples which show you how to use the main function ffdata.download()
 
 ### Example 1 
 
-Everything is set to default.
+Everything is set to default. 
+The function automatically downloads cleaned for NAs, monthly returns of 3-Fama-French factor portfolios with dividends from 1975/01 till today.
 
 ``` r
 library(ffData)
-ffdata.download()
+ffDataDownload()
 ```
 
 ### Example 2
 
-Download monthly returns with dividends of 48 Industry Portfolios from January 1990 till December 2018
+Download monthly returns with dividends for the 48 Industry Portfolios from January 1990 till December 2018.
 
 ```r
 library(ffData)
-ffdata.download(freq="m", dividends=TRUE, type="Industry", factors.n=48, start="199001", end="201812")
+ffDataDownload(freq="m", type="Industry", factors.n=48, start="199001", end="201812")
 ```

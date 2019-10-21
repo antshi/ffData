@@ -2,11 +2,11 @@ Package: ffData
 Type: Package
 Title: Automatic download of returns' data from the Kenneth R. French Data Library
 Version: 0.1.0
-Author: Antoniya Shivarova 
+Author: Antoniya Shivarova
 Maintainer: Antoniya Shivarova <an.shivarova@gmail.com>
 Description: The package allows the automatic download of returns' data from the Kenneth R. French data library. 
-    The user can define start and end date for the download, returns type and subtype and further relevant criteria as dividends,NAs-removal etc. 
-    The user-defined returns are downloaded and then saved in a convenient .csv-format. Only one type of returns can be downloaded at a time. 
+    The user can define start and end date for the download, returns type and subtype and further relevant criteria as dividends, NAs-removal etc. 
+    The time-series of the respective returns are downloaded and then saved in a convenient .csv-format. Only one type of returns can be downloaded at a time. 
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
