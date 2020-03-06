@@ -4,8 +4,16 @@
 \alias{threeway_download}
 \title{The threeway_download function}
 \usage{
-threeway_download(base, dir, sub_path, subtype, dividends, start, end,
-  cleanNAs)
+threeway_download(
+  base,
+  dir,
+  sub_path,
+  subtype,
+  dividends,
+  start,
+  end,
+  cleanNAs
+)
 }
 \arguments{
 \item{base}{a character string, the main webpage address "http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/".}

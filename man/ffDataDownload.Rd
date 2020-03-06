@@ -4,9 +4,17 @@
 \alias{ffDataDownload}
 \title{The ffDataDownload function}
 \usage{
-ffDataDownload(dir = NULL, type = "USResearch", subtype = NULL,
-  number_factors = NULL, freq = "m", dividends = TRUE,
-  start = NULL, end = NULL, cleanNAs = TRUE)
+ffDataDownload(
+  dir = NULL,
+  type = "USResearch",
+  subtype = NULL,
+  number_factors = NULL,
+  freq = "m",
+  dividends = TRUE,
+  start = NULL,
+  end = NULL,
+  cleanNAs = TRUE
+)
 }
 \arguments{
 \item{dir}{a character string, the directory for saving the data. The current working directory is set by default.}

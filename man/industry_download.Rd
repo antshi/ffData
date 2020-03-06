@@ -4,8 +4,17 @@
 \alias{industry_download}
 \title{The industry_download function}
 \usage{
-industry_download(base, dir, sub_path, number_factors, freq, dividends,
-  start, end, cleanNAs)
+industry_download(
+  base,
+  dir,
+  sub_path,
+  number_factors,
+  freq,
+  dividends,
+  start,
+  end,
+  cleanNAs
+)
 }
 \arguments{
 \item{base}{a character string, the main webpage address "http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/".}
