@@ -4,8 +4,18 @@
 \alias{bivariate_download}
 \title{The bivariate_download function}
 \usage{
-bivariate_download(base, dir, sub_path, number_factors, subtype, freq,
-  dividends, start, end, cleanNAs)
+bivariate_download(
+  base,
+  dir,
+  sub_path,
+  number_factors,
+  subtype,
+  freq,
+  dividends,
+  start,
+  end,
+  cleanNAs
+)
 }
 \arguments{
 \item{base}{a character string, the main webpage address "http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/".}

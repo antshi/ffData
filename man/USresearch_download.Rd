@@ -4,8 +4,16 @@
 \alias{USresearch_download}
 \title{The USresearch_download function}
 \usage{
-USresearch_download(base, dir, sub_path, number_factors, freq, start, end,
-  cleanNAs)
+USresearch_download(
+  base,
+  dir,
+  sub_path,
+  number_factors,
+  freq,
+  start,
+  end,
+  cleanNAs
+)
 }
 \arguments{
 \item{base}{a character string, the main webpage address "http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/".}
